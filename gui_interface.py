@@ -12,7 +12,6 @@ class SIHAGui(QMainWindow):
         self.setWindowTitle("TEKNOFEST SİHA Yer Kontrol İstasyonu (PySide6)")
         self.setGeometry(100, 100, 450, 350)
 
-        # Ana Düzen
         self.layout = QVBoxLayout()
 
         self.lbl_status = QLabel("Durum: Bağlantı Bekleniyor", self)
